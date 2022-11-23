@@ -56,12 +56,13 @@ h6 {
   isolation: isolate;
 }
 
-html, body {
+html,
+body {
   font-family: "Patrick Hand", cursive;
 }
 
 body {
-  height: 100vh;
+  height: auto;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -120,4 +121,19 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 8vh 0 0 0;
+  }
+  main {
+    height: auto;
+  }
+  main .container {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 8vh 0 0 0;
+  }
 }/*# sourceMappingURL=styles.css.map */
