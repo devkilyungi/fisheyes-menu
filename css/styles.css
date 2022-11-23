@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 *,
 *::before,
 *::after {
@@ -63,6 +64,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 15vh 0 0 0;
+  font-family: "Patrick Hand", cursive;
 }
 
 main {
